@@ -101,5 +101,5 @@ history=model.fit(train_data,train_target,epochs=20,callbacks=[checkpoint],valid
 
 from keras.models import load_model
 
-model.save("forestanimal_detection_model")
+model.save("forestanimal_detection_model.h5")
 
